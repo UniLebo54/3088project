@@ -5596,7 +5596,7 @@
 	)
 	(text_box "Motor powering\n"
 		(exclude_from_sim no)
-		(at 152.4 12.7 0)
+		(at 149.86 12.7 0)
 		(size 132.08 68.58)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8062,7 +8062,7 @@
 		)
 		(uuid "fff08ea2-85d8-4313-9c58-c2e4579ab3c7")
 	)
-	(label "BOUT1"
+	(label "motor4_A_out"
 		(at 262.89 58.42 0)
 		(effects
 			(font
@@ -8073,7 +8073,7 @@
 		)
 		(uuid "000c1971-08a4-45e7-b2a1-92f31c9ceaf6")
 	)
-	(label "BOUT2"
+	(label "motor4_B_out"
 		(at 262.89 60.96 0)
 		(effects
 			(font
@@ -8085,7 +8085,7 @@
 		(uuid "0e8214cd-89e3-41db-875e-46ee52da621f")
 	)
 	(label "motor4_CTRL1"
-		(at 45.72 194.31 270)
+		(at 44.45 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8094,7 +8094,7 @@
 		)
 		(uuid "200914e1-cac6-4d29-bd29-38142e19876b")
 	)
-	(label "AOUT2"
+	(label "motor2_B_out"
 		(at 262.89 55.88 0)
 		(effects
 			(font
@@ -8106,7 +8106,7 @@
 		(uuid "21cad1aa-4cc1-446b-9283-3e291fc6e8a3")
 	)
 	(label "GND"
-		(at 60.96 181.61 90)
+		(at 57.15 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8116,7 +8116,7 @@
 		(uuid "22f83754-b0d7-4c38-914b-735cdb45ca06")
 	)
 	(label "motor4_B_out"
-		(at 43.18 181.61 90)
+		(at 57.15 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8125,7 +8125,7 @@
 		)
 		(uuid "24daa134-c24c-4f7c-94cc-dec6ce6e903d")
 	)
-	(label "AIN1"
+	(label "motor2_CTRL1"
 		(at 227.33 53.34 0)
 		(effects
 			(font
@@ -8156,7 +8156,7 @@
 		)
 		(uuid "281d5859-e6c6-4e6d-b27d-f7319b988313")
 	)
-	(label "AOUT1"
+	(label "motor2_A_out"
 		(at 262.89 53.34 0)
 		(effects
 			(font
@@ -8177,7 +8177,7 @@
 		)
 		(uuid "2fd227d2-cec5-413f-b7e8-23b0fefe5a0f")
 	)
-	(label "CIN1"
+	(label "motor1_CTRL1"
 		(at 171.45 55.88 0)
 		(effects
 			(font
@@ -8189,7 +8189,7 @@
 		(uuid "3696503f-385c-4898-88a9-551661717345")
 	)
 	(label "motor1_A_OUT"
-		(at 76.2 194.31 270)
+		(at 44.45 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8199,7 +8199,7 @@
 		(uuid "36d1ff08-5e08-4262-afcd-8747ce570572")
 	)
 	(label "EXT_LOAD2_OUT"
-		(at 50.8 181.61 90)
+		(at 57.15 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8208,7 +8208,7 @@
 		)
 		(uuid "41808247-4487-4319-95f4-75d938dd452e")
 	)
-	(label "BIN1"
+	(label "motor4_CTRL1"
 		(at 227.33 58.42 0)
 		(effects
 			(font
@@ -8219,7 +8219,7 @@
 		)
 		(uuid "446bcbd7-dee2-4d14-abac-ff779d9345aa")
 	)
-	(label "CIN2"
+	(label "motor1_CTRL2"
 		(at 171.45 58.42 0)
 		(effects
 			(font
@@ -8231,7 +8231,7 @@
 		(uuid "4586d398-a3ee-4c88-a115-8f49c5f4ec22")
 	)
 	(label "motor2_CTRL1"
-		(at 40.64 194.31 270)
+		(at 44.45 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8240,7 +8240,7 @@
 		)
 		(uuid "477b6292-3943-46cf-af29-4dee918414f5")
 	)
-	(label "DIN1"
+	(label "motor3_CTRL1"
 		(at 171.45 60.96 0)
 		(effects
 			(font
@@ -8251,7 +8251,7 @@
 		)
 		(uuid "4fbd3f9c-2884-4fda-8c44-90fd976ca5a5")
 	)
-	(label "DOUT1"
+	(label "motor3_A_out"
 		(at 207.01 60.96 0)
 		(effects
 			(font
@@ -8263,7 +8263,7 @@
 		(uuid "56557df5-9728-4776-b8a5-e6e8a88a3d77")
 	)
 	(label "GND"
-		(at 66.04 181.61 90)
+		(at 57.15 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8273,7 +8273,7 @@
 		(uuid "58df608d-c7c7-4cbb-8165-5f1ace84cf92")
 	)
 	(label "USART2_RX"
-		(at 48.26 181.61 90)
+		(at 57.15 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8283,7 +8283,7 @@
 		(uuid "597d1eaa-e453-4cea-a812-edbe24127887")
 	)
 	(label "motor3_CTRL2"
-		(at 68.58 194.31 270)
+		(at 44.45 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8293,7 +8293,7 @@
 		(uuid "59e884a7-7392-422d-b668-91ff3e89b876")
 	)
 	(label "USART2_TX"
-		(at 50.8 194.31 270)
+		(at 44.45 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8303,7 +8303,7 @@
 		(uuid "5b103bb4-af40-46e8-97cf-496637e0e635")
 	)
 	(label "motor2_CTRL2"
-		(at 43.18 194.31 270)
+		(at 44.45 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8313,7 +8313,7 @@
 		(uuid "5de77197-07cf-40d7-b305-92e066e2acbd")
 	)
 	(label "I2C1_SDA"
-		(at 58.42 181.61 90)
+		(at 57.15 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8322,7 +8322,7 @@
 		)
 		(uuid "602042eb-9b1a-4e3d-9f39-f334849bcce3")
 	)
-	(label "DOUT2"
+	(label "motor3_B_out"
 		(at 207.01 63.5 0)
 		(effects
 			(font
@@ -8334,7 +8334,7 @@
 		(uuid "6257fd98-ed3c-464d-b5e8-e88245c65d93")
 	)
 	(label "motor2_A_out"
-		(at 38.1 194.31 270)
+		(at 44.45 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8353,7 +8353,7 @@
 		)
 		(uuid "71728a03-66dc-40fd-b1ae-6dbfb7b372a2")
 	)
-	(label "COUT1"
+	(label "motor1_A_out"
 		(at 207.01 55.88 0)
 		(effects
 			(font
@@ -8375,7 +8375,7 @@
 		(uuid "797803fa-7b6c-4216-87b0-f265351d965a")
 	)
 	(label "HV"
-		(at 63.5 194.31 270)
+		(at 44.45 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8395,7 +8395,7 @@
 		(uuid "7b54b50c-46d3-4763-80d8-cd1a0746df0c")
 	)
 	(label "motor1_B_OUT"
-		(at 76.2 181.61 90)
+		(at 57.15 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8415,7 +8415,7 @@
 		(uuid "8633ee7e-17a2-4548-be33-bc8b0593bffc")
 	)
 	(label "."
-		(at 55.88 181.61 90)
+		(at 57.15 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8425,7 +8425,7 @@
 		(uuid "8700e47e-0213-422c-9f2b-931dd7e7c8b9")
 	)
 	(label "motor3_CTRL1"
-		(at 66.04 194.31 270)
+		(at 44.45 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8445,7 +8445,7 @@
 		(uuid "8cb1ddc8-edf2-4480-8142-4c9fbf5412ac")
 	)
 	(label "FAST_CHARGE_CTRL"
-		(at 53.34 181.61 90)
+		(at 57.15 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8455,7 +8455,7 @@
 		(uuid "916d06e3-e3d5-4020-8924-0ef446300ab1")
 	)
 	(label "CTRL_EXT_LOAD2"
-		(at 45.72 181.61 90)
+		(at 57.15 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8465,7 +8465,7 @@
 		(uuid "9436834a-d87a-4aef-b067-71d2bea6eb78")
 	)
 	(label "motor4_CTRL2"
-		(at 48.26 194.31 270)
+		(at 44.45 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8475,7 +8475,7 @@
 		(uuid "96bbea09-c3e5-4345-88e4-6c6ba558bb5d")
 	)
 	(label "motor1_CTRL2"
-		(at 73.66 194.31 270)
+		(at 44.45 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8485,7 +8485,7 @@
 		(uuid "96f7fa9d-94be-4067-a671-beef5ce8882f")
 	)
 	(label "I2C1_SCL"
-		(at 55.88 194.31 270)
+		(at 44.45 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8494,7 +8494,7 @@
 		)
 		(uuid "9769306c-2f1d-422d-81be-a6e47ca529e0")
 	)
-	(label "DIN2"
+	(label "motor3_CTRL2"
 		(at 171.45 63.5 0)
 		(effects
 			(font
@@ -8506,7 +8506,7 @@
 		(uuid "99d81693-e43d-4927-8875-aa838dfb787b")
 	)
 	(label "motor1_CTRL1"
-		(at 71.12 194.31 270)
+		(at 44.45 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8526,7 +8526,7 @@
 		(uuid "9c458fe7-574a-4329-9c63-7ff131354659")
 	)
 	(label "CTRL_EXT_LOAD1"
-		(at 68.58 181.61 90)
+		(at 57.15 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8536,7 +8536,7 @@
 		(uuid "a4726bfb-b6a6-46da-8a40-9f7342631a43")
 	)
 	(label "motor3_B_OUT"
-		(at 73.66 181.61 90)
+		(at 57.15 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8546,7 +8546,7 @@
 		(uuid "a6752a88-a18a-4dbf-9d2d-0ba0cc7b8020")
 	)
 	(label "motor2_B_out"
-		(at 38.1 181.61 90)
+		(at 57.15 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8575,7 +8575,7 @@
 		)
 		(uuid "b3510aa5-ca61-4d24-8c94-577b718c900c")
 	)
-	(label "AIN2"
+	(label "motor2_CTRL2"
 		(at 227.33 55.88 0)
 		(effects
 			(font
@@ -8587,7 +8587,7 @@
 		(uuid "bae3775d-700a-40de-99f9-ad84cdf3065b")
 	)
 	(label "motor4_A_out"
-		(at 40.64 181.61 90)
+		(at 57.15 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8618,7 +8618,7 @@
 		(uuid "c2d2c2d7-ba7f-42ec-abdf-00abe84719be")
 	)
 	(label "EXT_LOAD1_OUT"
-		(at 63.5 181.61 90)
+		(at 57.15 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8628,7 +8628,7 @@
 		(uuid "c8ba2a03-f6e4-4a8b-867b-3b3a55d01c2f")
 	)
 	(label "5V out"
-		(at 60.96 194.31 270)
+		(at 44.45 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8648,7 +8648,7 @@
 		(uuid "d2eabc20-d867-49c4-ae68-d3a21a8d4fa2")
 	)
 	(label "Battery"
-		(at 53.34 194.31 270)
+		(at 44.45 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8657,7 +8657,7 @@
 		)
 		(uuid "d35de3fe-e0f0-4982-bc05-586e1f00fb4e")
 	)
-	(label "COUT2"
+	(label "motor1_B_out"
 		(at 207.01 58.42 0)
 		(effects
 			(font
@@ -8680,7 +8680,7 @@
 		(uuid "dde194c5-134a-4703-baa7-42fde4d420e4")
 	)
 	(label "3V3 out"
-		(at 58.42 194.31 270)
+		(at 44.45 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8709,7 +8709,7 @@
 		)
 		(uuid "eaa6624b-64fa-495f-9ffa-6f7f96863e3f")
 	)
-	(label "BIN2"
+	(label "motor4_CTRL2"
 		(at 227.33 60.96 0)
 		(effects
 			(font
@@ -8741,7 +8741,7 @@
 		(uuid "fe67a27e-37a8-462d-9b59-fee70ba4ff10")
 	)
 	(label "motor3_A_OUT"
-		(at 71.12 181.61 90)
+		(at 57.15 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10991,8 +10991,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x16_Odd_Even")
-		(at 55.88 186.69 90)
-		(mirror x)
+		(at 52.07 172.72 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11001,25 +11001,25 @@
 		(fields_autoplaced yes)
 		(uuid "4c1537fc-850a-42e6-a7af-e72232f28af7")
 		(property "Reference" "J?"
-			(at 78.74 189.2301 90)
+			(at 52.0701 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_02x16_Odd_Even"
-			(at 78.74 186.6901 90)
+			(at 49.5301 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 186.69 0)
+			(at 52.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +11028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 186.69 0)
+			(at 52.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11037,7 +11037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 186.69 0)
+			(at 52.07 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
