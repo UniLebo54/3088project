@@ -1,0 +1,53 @@
+Reference,Value,Footprint,JLCPCB,Qty
+"C1, C13",2.2uF,Capacitor_SMD:C_0805_2012Metric,,2
+"C3, C5, C9, C10, C15",10uF,Capacitor_SMD:C_0805_2012Metric,,5
+"C4, C11, C12",100nF,Capacitor_SMD:C_0805_2012Metric,,3
+"C6, C16-19",22uF,Capacitor_SMD:C_0805_2012Metric,,5
+"C7, C8",1uF,Capacitor_SMD:C_0805_2012Metric,,2
+D2,LED,LED_SMD:LED_0805_2012Metric,,1
+"D4, D5",SS24B,SS24_R5G:DIOM4336X265N,-- mixed values --,2
+IC1,DW01A-G,DW01A-G:SOT95P280X135-6N,C2927799,1
+J1,Conn_02x16_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical,,1
+J4,TYPE-C-31-M-12,TYPE-C-31-M-12:HRO_TYPE-C-31-M-12,C165948,1
+JP1,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+L1,10uH,Inductor_SMD:L_0805_2012Metric,,1
+"L2, L3",22uH,Inductor_SMD:L_0805_2012Metric,,2
+P1,PHR-2,PHR-2:JST_PHR-2,C131339,1
+Q1,FS8205A,FS8205A:SOP65P640X120-8N,C908265,1
+Q3,BSS138,Package_TO_SOT_SMD:SOT-23,C8490,1
+"Q4, Q6",AO3401A,Package_TO_SOT_SMD:SOT-23,C15127,2
+"Q5, Q7",2N2222A,2N2222A:TO92254P470H750-3,C15127,2
+Q8,AO3400A,Package_TO_SOT_SMD:SOT-23,C20917,1
+"R2, R6, R14, R15, R19, R21, R24, R27",10k,Resistor_SMD:R_0805_2012Metric,,8
+R3,20,Resistor_SMD:R_0805_2012Metric,,1
+R4,20k,Resistor_SMD:R_0805_2012Metric,,1
+R5,43k,Resistor_SMD:R_0805_2012Metric,,1
+"R7, R8",5.1k,Resistor_SMD:R_0805_2012Metric,,2
+"R9, R12, R25, R26",1k,Resistor_SMD:R_0805_2012Metric,,4
+R10,5k,Resistor_SMD:R_0805_2012Metric,,1
+R11,3.3k,Resistor_SMD:R_0805_2012Metric,,1
+R13,100,Resistor_SMD:R_0805_2012Metric,,1
+R16,0.1,Resistor_SMD:R_0805_2012Metric,,1
+R18,47k,Resistor_SMD:R_0805_2012Metric,,1
+R20,27k,Resistor_SMD:R_0805_2012Metric,,1
+R22,33k,Resistor_SMD:R_0805_2012Metric,,1
+R23,12k,Resistor_SMD:R_0805_2012Metric,,1
+S1,SS12D07VG4,SS12D07VG4:SW_SS12D07VG4,C22435633,1
+,,,,
+TP2,MOT2,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP3,PD_V,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP4,usbc_V,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP5,BAT_ON,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP6,5v_Test,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP7,3v3_Test,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP8,load_1_Test,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP9,Load_1_G_Test,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP10,load_2_Test,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP11,Load_2_G_Test,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+TP12,MOT1,TestPoint:TestPoint_Pad_1.0x1.0mm,,1
+U1,IP2721,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,C603176,1
+U3,INA219AxD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C1574856,1
+"U4, U5",DRV8833PW,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,C50506,2
+U6,MP2315SGJ-Z,footprints:TSOT23-8_MP2315S_MNP,C3031493,1
+U7,MCP73831-2-OT,Package_TO_SOT_SMD:SOT-23-5,C14879,1
+"U8, U9",MT3608,Package_TO_SOT_SMD:SOT-23-6,C84817,2
